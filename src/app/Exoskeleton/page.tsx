@@ -12,11 +12,11 @@ export default function () {
         }}
       >
         <Typography variant="h4" component={"h4"}>
-          Development of Exoskeleton System for Gait Rehabilitation
+          Development of Wearable Robot System for Gait Rehabilitation
         </Typography>
         <div style={{ fontSize: '24px' }}>Objective</div>
-        <div style={{ fontSize: '13px' }}><b>Exoskeletons</b> are one of the most promising technologies for rehabilitation and assistance of human movements. 
-        In this study, I developed a <b>lower-extremity exoskeleton robot for the gait rehabilitation</b> of neurological patients, especially <b>stroke and spinal cord injury patients.</b> Stroke patients with hemiplegia exhibit different gait characteristics between the affected and healthy sides of their limbs. 
+        <div style={{ fontSize: '13px' }}><b>Wearable robots</b> are one of the most promising technologies for rehabilitation and assistance of human movements. 
+        In this study, I developed a <b>lower-extremity wearable robot for the gait rehabilitation</b> of neurological patients, especially <b>stroke and spinal cord injury patients.</b> Stroke patients with hemiplegia exhibit different gait characteristics between the affected and healthy sides of their limbs. 
         Furthermore, unlike stroke patients, spinal cord injury patients have lost their entire ability to control their lower limbs. 
         These patients often use crutches to maintain their balance and walk. Therefore, it is crucial to consider the use of crutches and the users' postures in the motion planning and control of the exoskeleton robot.
         </div>
@@ -36,7 +36,7 @@ export default function () {
             />
           </div>
         </div>
-        <div style={{ fontSize: '24px' }}>Approach</div>
+        {/* <div style={{ fontSize: '24px' }}>Approach</div>
         <div style={{ fontSize: '13px' }}>To address the different gait characteristics between the affected and healthy sides of the limbs, I implemented two distinct control strategies. For the healthy side, I used <b>friction and gravity compensation control to allow natural movement</b>. 
           For the affected side, I used <b>impedance control</b> to follow the desired trajectory, which was set based on the trajectory of the healthy side.
           Furthermore, to account for the use of crutches, I estimated the crutch supporting points and the user's posture using a forward kinematic model with sensor systems. 
@@ -46,15 +46,15 @@ export default function () {
         <div style={{ fontSize: '24px' }}>Results</div>
         <div style={{ fontSize: '13px' }}>We evaluated our method with <b>13 stroke patients over 12 weeks</b>. After 12 weeks, the patients showed significant improvements: their 6-minute walk distance increased by 44% (Fig A), their performance in the Timed Up and Go test improved by 23.7% (Fig B), and their gait balance improved with a 10.4% increase in the Berg Balance Test (Fig C) and a 10.0% increase in the Fugl-Meyer Score (Fig D).
           Additionally, testing the motion planning method with healthy subjects showed that our proposed method generated different step lengths depending on the crutch support points and user posture (<b><span style={{ color: 'blue' }}>left video: pre-defined walking, center video: larger desired step, right video: lower desired step</span></b>).
-        </div>
+        </div> */}
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+          {/* <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
               <img 
                 src="https://github.com/shwang45/shblog/blob/main/img/stroke_results.png?raw=true"
                 alt="R1"
                 style={{ maxWidth: "70%", height: "auto", display: "block" }}
               />
-          </div>
+          </div> */}
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
@@ -79,7 +79,7 @@ export default function () {
             />
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        {/* <div style={{ display: "flex", justifyContent: "center" }}>
           <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
               <img 
                 src="https://github.com/shwang45/shblog/blob/main/img/dmp_results.png?raw=true"
@@ -87,7 +87,7 @@ export default function () {
                 style={{ maxWidth: "100%", height: "auto", display: "block" }}
               />
           </div>
-        </div>
+        </div> */}
         <div style={{ fontSize: '24px' }}>Publications</div>
           <a href="https://drive.google.com/file/d/1j1zDVH7KIavP5roXyTdILljokjQ7zwsF/view?usp=share_link">
           [1] Sung, J., Choi, S., Kim, H., Lee, G., Han, <b>Hwang, S. H.</b>, et al. 2017. Feasibility of rehabilitation training with a newly developed, portable, gait assistive robot for balance function in hemiplegic patients. Annals of rehabilitation medicine, 41(2), 178.
